@@ -40,22 +40,39 @@ p {
 
 /* LINKS */
 
+#sources:link {
+  color: #D0F1F1;
+}
 
-a:link {
+#sources:visited {
+  color: #D0F1F1;
+}
+
+#sources:hover {
+  color: rgb(203, 103, 253);
+}
+
+#sources {
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+
+
+#pages:link {
     color:#D0F1F1;
   }
 
-a:visited {
+#pages:visited {
     color:#D0F1F1;
 }
   
-  a:hover {
+#pages:hover {
     color:#263243;
     background-color:#D0F1F1;
     font-size: 2.5em;
   }
   
-  a {
+#pages {
     border: 0.1em solid;
     padding: 0.3em;
     font-size: 2em;
