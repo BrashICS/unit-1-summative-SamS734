@@ -1,0 +1,96 @@
+/* VISUALS */
+
+body {
+    background-color: rgb(42, 43, 46);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* TEXT */
+
+h1 {
+    color: #eb9d0d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 400%;
+} 
+
+h2 {
+    color:rgb(119, 211, 211);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#intro {
+    font-size: 1.5em;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#slist {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+
+
+/* LINKS */
+
+#sources:link {
+    color: #D0F1F1;
+}
+
+#sources:visited {
+    color: #D0F1F1;
+}
+
+#sources:hover {
+    color: rgb(203, 103, 253);
+}
+
+#sources {
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+
+
+#pages:link {
+    color:#D0F1F1;
+  }
+
+#pages:visited {
+    color:#D0F1F1;
+}
+  
+#pages:hover {
+    color:#263243;
+    background-color:#D0F1F1;
+    font-size: 2.5em;
+  }
+  
+#pages {
+    border: 0.1em solid;
+    padding: 0.3em;
+    font-size: 2em;
+    background-color:#263243;
+    transition-duration: 0.5s;
+    transition-property: font-size, color;
+  }
